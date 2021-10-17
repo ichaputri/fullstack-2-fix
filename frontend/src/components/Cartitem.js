@@ -1,8 +1,8 @@
 import React from 'react';
-import "./Cartitem.css";
+import "./CartItem.css";
 import { Link } from "react-router-dom";
 
-const Cartitem = () => {
+const CartItem = () => {
     return(
         <div className="cartitem"> 
             <div className="cartitem__image">
@@ -29,4 +29,4 @@ const Cartitem = () => {
     )
 }
 
-export default Cartitem;
+export default CartItem;

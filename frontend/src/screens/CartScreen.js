@@ -1,7 +1,7 @@
 import './CartScreen.css';
 
 //components
-import Cartitem from '../components/Cartitem';
+import CartItem from '../components/CartItem';
 
 const CartScreen = () => {
     return(
@@ -9,11 +9,11 @@ const CartScreen = () => {
             <div className="cartscreen__left">
                 <h2>Your Cart</h2>
 
-                <Cartitem />
-                <Cartitem />
-                <Cartitem />
-                <Cartitem />
-                <Cartitem />
+                <CartItem />
+                <CartItem />
+                <CartItem />
+                <CartItem />
+                <CartItem />
             </div>
             <div className="cartscreen__right">
                 <div className="cartscreen__right">
